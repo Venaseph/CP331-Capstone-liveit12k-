@@ -11,15 +11,19 @@ import Lottie
 
 class ViewController: UIViewController {
 
+    @IBAction func password(_ sender: UITextField) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let animationView: LOTAnimationView = LOTAnimationView(name: "liveitani")
+        // Get current devices screen size
         let screenSize: CGRect = UIScreen.main.bounds
-        print(screenSize.width)
+        
+        let animationView: LOTAnimationView = LOTAnimationView(name: "liveitani")
         
         animationView.contentMode = .scaleAspectFill
-        animationView.frame = CGRect(x: (screenSize.width/2)-100, y: (screenSize.height/2)-125, width: 200, height: 250)
+        animationView.frame = CGRect(x: (screenSize.width/2)-100, y: (screenSize.height/4)-125, width: 200, height: 250)
         
         self.view.addSubview(animationView)
         // Lets turn looping on, since we want it to repeat while the image is 'Downloading'
