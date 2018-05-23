@@ -1,20 +1,33 @@
 PODS:
   - IQKeyboardManagerSwift (6.0.2)
   - lottie-ios (2.5.0)
+  - SwiftyCam (2.7.0)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
   - lottie-ios
+  - SwiftyCam (from `https://github.com/Awalz/SwiftyCam.git`, branch `Swift4`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - IQKeyboardManagerSwift
     - lottie-ios
 
+EXTERNAL SOURCES:
+  SwiftyCam:
+    :branch: Swift4
+    :git: https://github.com/Awalz/SwiftyCam.git
+
+CHECKOUT OPTIONS:
+  SwiftyCam:
+    :commit: 85d713d643159cda72db2f3e230777af50cded94
+    :git: https://github.com/Awalz/SwiftyCam.git
+
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 59d4b0e140bc546c3c76ae5bb35b3dafd10b8172
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  SwiftyCam: 7c826b73a5b208677aee29390582c771bf748661
 
-PODFILE CHECKSUM: c3fc5f07b3b6701df0535bad8efc5aadf0c9e5df
+PODFILE CHECKSUM: 0589263a5f3ae79f8b747f2ec311081a40dda557
 
 COCOAPODS: 1.5.0

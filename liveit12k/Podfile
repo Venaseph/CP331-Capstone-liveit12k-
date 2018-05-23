@@ -8,5 +8,6 @@ target 'liveit12k' do
   # Pods for liveit12k
   pod 'lottie-ios'
   pod 'IQKeyboardManagerSwift'
+  pod 'SwiftyCam', :git => 'https://github.com/Awalz/SwiftyCam.git', :branch => 'Swift4'
 
 end
