@@ -11,6 +11,8 @@ import Lottie
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Submit: UIButton!
+    
     @IBAction func password(_ sender: UITextField) {
         
     }

@@ -7,5 +7,6 @@ target 'liveit12k' do
 
   # Pods for liveit12k
   pod 'lottie-ios'
+  pod 'IQKeyboardManagerSwift'
 
 end
