@@ -15,5 +15,4 @@ class UICameraViewController: SwiftyCamViewController {
         
  
     }
-    
 }
